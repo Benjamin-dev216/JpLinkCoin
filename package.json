@@ -19,7 +19,7 @@
     "react-hot-toast": "^2.5.2",
     "react-spinners": "^0.15.0",
     "viem": "2.x",
-    "react": "^19.0.0",
+    "react": "18.0.0",
     "react-dom": "^19.0.0",
     "tailwindcss": "^4.0.12",
     "wagmi": "^2.14.12"
