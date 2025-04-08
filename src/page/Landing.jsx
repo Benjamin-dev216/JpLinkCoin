@@ -104,7 +104,7 @@ export default function Landing() {
         abi: abi,
         functionName: selectBool ? "getAmountsIn" : "getAmountsOut",
         args: [
-          parseEther(amountIn.length > 0 ? amountIn.toString() : "0"),
+          parseEther(amountIn?.length > 0 ? amountIn?.toString() : "0"),
           [order ? tokenA : tokenB, order ? tokenB : tokenA],
         ],
       });

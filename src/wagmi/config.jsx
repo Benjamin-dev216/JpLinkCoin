@@ -10,7 +10,7 @@ export const config = createConfig(
     chains: [polygon],
     transports: {
       // RPC URL for each chain
-      [polygon.id]: http(
+      [polygon?.id]: http(
         `https://polygon.llamarpc.com`,
       ),
     },
